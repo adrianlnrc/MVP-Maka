@@ -1,4 +1,4 @@
-from sqlalchemy import Boolean, Integer, String, Text
+from sqlalchemy import Boolean, ForeignKey, Integer, String, Text
 from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
@@ -24,7 +24,7 @@ class ReadingPlanDay(Base):
     __tablename__ = "reading_plan_day"
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
-    plan_id: Mapped[int] = mapped_column(Integer, nullable=False)
+    plan_id: Mapped[int] = mapped_column(Integer, ForeignKey("reading_plan.id"), nullable=False)
     day_number: Mapped[int] = mapped_column(Integer, nullable=False)
     title: Mapped[str] = mapped_column(String(300), nullable=False)
     story_ids: Mapped[list] = mapped_column(JSONB, nullable=False, default=list)
