@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.prose-story {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #1f2937;
+}
+
+.prose-story h1, .prose-story h2, .prose-story h3 {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 700;
+  color: #111827;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose-story h1 { font-size: 1.875rem; }
+.prose-story h2 { font-size: 1.5rem; }
+.prose-story h3 { font-size: 1.25rem; }
+
+.prose-story p { margin-bottom: 1.25rem; }
+
+.prose-story blockquote {
+  border-left: 4px solid #7c3aed;
+  padding-left: 1.5rem;
+  font-style: italic;
+  color: #4b5563;
+  margin: 1.5rem 0;
+}
+
+.prose-story em { font-style: italic; }
+.prose-story strong { font-weight: 600; color: #111827; }
+
+.prose-story hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 2rem 0;
+}

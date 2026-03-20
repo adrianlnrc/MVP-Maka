@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "slug": "criacao",
+    "name": "Criação",
+    "description": "No princípio, Deus criou os céus e a terra. Antes do tempo existir, havia apenas Deus — e então, em seis dias, tudo veio à existência: a luz, os mares, as estrelas, as plantas, os animais e, por fim, o ser humano. Esta é a história de como tudo começou.",
+    "order_index": 1,
+    "approx_date_start": "Antes do tempo",
+    "approx_date_end": "~4000 a.C.",
+    "color_hex": "#7c3aed"
+  },
+  {
+    "id": 2,
+    "slug": "patriarcas",
+    "name": "Patriarcas",
+    "description": "A história de Abraão, Isaque, Jacó e José — os pais fundadores do povo de Israel. Deus chama um homem de uma terra distante e faz uma promessa que mudará o curso da história: desta família viria uma nação, e através dessa nação, bênção para o mundo inteiro.",
+    "order_index": 2,
+    "approx_date_start": "~2000 a.C.",
+    "approx_date_end": "~1500 a.C.",
+    "color_hex": "#d97706"
+  },
+  {
+    "id": 3,
+    "slug": "egito-exodus",
+    "name": "Egito & Êxodo",
+    "description": "Quatrocentos anos de escravidão no Egito. Um bebê salvo das águas. As dez pragas. O mar que se abre. A jornada pelo deserto. Esta é a história da libertação — o maior ato de resgate do Antigo Testamento, e uma prefiguração de algo ainda maior que viria séculos depois.",
+    "order_index": 3,
+    "approx_date_start": "~1500 a.C.",
+    "approx_date_end": "~1400 a.C.",
+    "color_hex": "#b45309"
+  },
+  {
+    "id": 4,
+    "slug": "conquista",
+    "name": "Conquista de Canaã",
+    "description": "Após quarenta anos no deserto, o povo de Israel finalmente entra na Terra Prometida. Josué lidera um povo que carrega as promessas de Deus e enfrenta a tarefa de habitar uma nova terra — com fé, batalhas e momentos de falha e restauração.",
+    "order_index": 4,
+    "approx_date_start": "~1400 a.C.",
+    "approx_date_end": "~1350 a.C.",
+    "color_hex": "#15803d"
+  },
+  {
+    "id": 5,
+    "slug": "juizes",
+    "name": "Juízes",
+    "description": "Um ciclo que se repete: o povo abandona a Deus, cai em opressão, clama por ajuda, e Deus levanta um libertador. Sansão, Débora, Gideão, Samuel — heróis imperfeitos que apontam para a necessidade de um rei diferente de todos os outros.",
+    "order_index": 5,
+    "approx_date_start": "~1350 a.C.",
+    "approx_date_end": "~1050 a.C.",
+    "color_hex": "#0369a1"
+  },
+  {
+    "id": 6,
+    "slug": "reino",
+    "name": "Reino Unido e Dividido",
+    "description": "Saul, Davi e Salomão constroem um reino. Depois da morte de Salomão, a nação se divide em dois. Reis que seguem a Deus e reis que o abandonam. Profetas que falam verdade ao poder. A glória e a queda de Israel — e as promessas que permanecem mesmo no colapso.",
+    "order_index": 6,
+    "approx_date_start": "~1050 a.C.",
+    "approx_date_end": "~586 a.C.",
+    "color_hex": "#dc2626"
+  },
+  {
+    "id": 7,
+    "slug": "exilio",
+    "name": "Exílio na Babilônia",
+    "description": "Jerusalém é destruída. O templo, queimado. O povo é levado em cativeiro para a Babilônia. Entre os exilados estão Daniel, Ezequiel e outros que mantêm a fé mesmo longe de casa. E as profecias começam a apontar para um dia em que tudo será restaurado.",
+    "order_index": 7,
+    "approx_date_start": "~605 a.C.",
+    "approx_date_end": "~538 a.C.",
+    "color_hex": "#475569"
+  },
+  {
+    "id": 8,
+    "slug": "retorno",
+    "name": "Retorno e Restauração",
+    "description": "O decreto de Ciro: os exilados podem voltar para casa. Esdras, Neemias e Ester lideraram a reconstrução — dos muros, do templo e, mais importante, da identidade do povo. Uma segunda chance que aponta para a promessa maior ainda por vir.",
+    "order_index": 8,
+    "approx_date_start": "~538 a.C.",
+    "approx_date_end": "~400 a.C.",
+    "color_hex": "#0891b2"
+  },
+  {
+    "id": 9,
+    "slug": "intertestamental",
+    "name": "Período Intertestamental",
+    "description": "Quatrocentos anos de silêncio profético. O mundo muda radicalmente: o Império Persa dá lugar aos gregos de Alexandre, depois aos selêucidas e finalmente aos romanos. O palco vai sendo preparado para o evento mais importante da história humana.",
+    "order_index": 9,
+    "approx_date_start": "~400 a.C.",
+    "approx_date_end": "~4 a.C.",
+    "color_hex": "#78716c"
+  },
+  {
+    "id": 10,
+    "slug": "jesus-nt",
+    "name": "Jesus Cristo",
+    "description": "O centro de toda a história. Um bebê nasce numa manjedoura em Belém. Trinta anos depois, ele começa a ensinar, curar e ressuscitar mortos. Ele afirma ser o Filho de Deus. É crucificado. E três dias depois, ressuscita — mudando para sempre o significado de tudo que veio antes.",
+    "order_index": 10,
+    "approx_date_start": "~4 a.C.",
+    "approx_date_end": "~30 d.C.",
+    "color_hex": "#eab308"
+  },
+  {
+    "id": 11,
+    "slug": "igreja-primitiva",
+    "name": "Igreja Primitiva",
+    "description": "Cinquenta dias após a ressurreição, o Espírito Santo é derramado. Uma pequena comunidade em Jerusalém se transforma em um movimento que atravessa fronteiras, culturas e impérios. Paulo, Pedro, João e outros carregam a mensagem de Jesus até os confins do mundo.",
+    "order_index": 11,
+    "approx_date_start": "~30 d.C.",
+    "approx_date_end": "~100 d.C.",
+    "color_hex": "#0d9488"
+  },
+  {
+    "id": 12,
+    "slug": "profecias-apocalipse",
+    "name": "Profecias & Apocalipse",
+    "description": "A história ainda não acabou. As profecias do Antigo e do Novo Testamento apontam para um dia em que Deus tornará todas as coisas novas — quando a morte será vencida, as lágrimas serão enxugadas, e Deus habitará para sempre com a humanidade. O fim é, na verdade, um novo começo.",
+    "order_index": 12,
+    "approx_date_start": "Fim dos tempos",
+    "approx_date_end": "Eternidade",
+    "color_hex": "#6366f1"
+  }
+]

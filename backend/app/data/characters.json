@@ -1,0 +1,74 @@
+[
+  {
+    "era_slug": "criacao",
+    "slug": "adao",
+    "name": "Adão",
+    "also_known_as": [],
+    "birth_approx": "~4000 a.C.",
+    "death_approx": "~3070 a.C.",
+    "biography": "Adão foi o primeiro ser humano criado por Deus, formado do pó da terra e animado pelo fôlego divino. Viveu no Jardim do Éden em comunhão perfeita com Deus até a Queda. Após ser expulso do Jardim, trabalhou a terra e teve muitos filhos, vivendo 930 anos.",
+    "role": "Primeiro Homem",
+    "significance": "Como primeiro ser humano, Adão representa toda a humanidade. Sua desobediência introduziu o pecado no mundo, mas também iniciou a história da redenção — a busca de Deus pelo homem perdido.",
+    "bible_references": ["Gênesis 1:26-5:5", "Romanos 5:12-21", "1 Coríntios 15:22"]
+  },
+  {
+    "era_slug": "criacao",
+    "slug": "eva",
+    "name": "Eva",
+    "also_known_as": ["A mãe de todos os viventes"],
+    "birth_approx": "~4000 a.C.",
+    "death_approx": null,
+    "biography": "Eva foi a primeira mulher, criada da costela de Adão. Seu nome significa 'vida' ou 'vivente'. Ela foi a primeira a ser tentada pela serpente e a comer o fruto proibido, sendo depois expulsa do Jardim com Adão. Tornou-se mãe de Caim, Abel, Sete e muitos outros.",
+    "role": "Primeira Mulher",
+    "significance": "Eva é a mãe de toda a humanidade. Sua escolha no Jardim mudou o curso da história — mas também ela recebeu a primeira promessa de redenção, quando Deus anunciou que a descendência da mulher esmagaria a cabeça da serpente.",
+    "bible_references": ["Gênesis 2:18-4:2", "1 Timóteo 2:13-14"]
+  },
+  {
+    "era_slug": "patriarcas",
+    "slug": "abraao",
+    "name": "Abraão",
+    "also_known_as": ["Abrão", "Pai da Fé", "Pai de Muitas Nações"],
+    "birth_approx": "~2166 a.C.",
+    "death_approx": "~1991 a.C.",
+    "biography": "Abraão nasceu em Ur dos Caldeus como Abrão, filho de Tera. Aos 75 anos, respondeu ao chamado de Deus e deixou tudo para trás. Deus fez uma aliança com ele, prometendo que seria pai de uma grande nação e que em sua descendência todas as nações seriam abençoadas. Aos 100 anos, teve Isaac com Sara. Foi testado quando Deus pediu que sacrificasse o filho, e sua fé foi confirmada.",
+    "role": "Patriarca, Pai da Fé",
+    "significance": "Abraão é o pai espiritual das três religiões abraâmicas: judaísmo, cristianismo e islamismo. Sua vida demonstra que a fé não é a ausência de dúvida, mas a confiança em Deus mesmo diante do impossível. Paulo o descreve como o modelo de justificação pela fé.",
+    "bible_references": ["Gênesis 12-25", "Romanos 4", "Hebreus 11:8-19", "Gálatas 3:6-9"]
+  },
+  {
+    "era_slug": "egito-exodus",
+    "slug": "moises",
+    "name": "Moisés",
+    "also_known_as": ["O Legislador", "O Libertador"],
+    "birth_approx": "~1526 a.C.",
+    "death_approx": "~1406 a.C.",
+    "biography": "Nascido hebreu, criado como príncipe egípcio, Moisés fugiu para o deserto de Midiã após matar um egípcio. Aos 80 anos, Deus o chamou na sarça ardente para liderar a libertação de Israel. Ele conduziu as dez pragas, o Êxodo, a travessia do Mar Vermelho, e recebeu a Lei no Monte Sinai. Liderou Israel por quarenta anos no deserto, mas não entrou na Terra Prometida.",
+    "role": "Profeta, Legislador, Libertador",
+    "significance": "Moisés é o maior profeta do Antigo Testamento e a figura central do Pentateuco. Mediou a aliança do Sinai entre Deus e Israel e estabeleceu os fundamentos da Lei. É uma das figuras que mais claramente aponta para Jesus — o novo Moisés que traz uma aliança melhor.",
+    "bible_references": ["Êxodo 2-Deuteronômio 34", "Hebreus 11:23-29", "João 5:46"]
+  },
+  {
+    "era_slug": "reino",
+    "slug": "davi",
+    "name": "Davi",
+    "also_known_as": ["O Homem segundo o coração de Deus", "Rei Davi"],
+    "birth_approx": "~1040 a.C.",
+    "death_approx": "~970 a.C.",
+    "biography": "Davi era o mais jovem de oito filhos de Jessé, da tribo de Judá. Foi ungido rei por Samuel enquanto ainda era pastor. Matou Golias quando jovem. Fugiu do rei Saul por anos antes de assumir o trono. Reinou em Hebrom por 7 anos e em Jerusalém por 33. Cometeu adulterio com Bate-Seba e mandou matar o marido dela. Foi confrontado pelo profeta Natã, arrependeu-se e escreveu muitos dos Salmos.",
+    "role": "Rei, Poeta, Guerreiro",
+    "significance": "Davi é o maior rei de Israel e o ancestral humano de Jesus. A aliança davídica promete que um descendente de Davi reinará para sempre — cumprida em Jesus Cristo. Seus Salmos ainda ressoam como a expressão mais profunda da relação humana com Deus.",
+    "bible_references": ["1 Samuel 16 - 1 Reis 2", "Salmos 23, 51", "Atos 2:29-31", "Mateus 1:1"]
+  },
+  {
+    "era_slug": "jesus-nt",
+    "slug": "jesus",
+    "name": "Jesus Cristo",
+    "also_known_as": ["Jesus de Nazaré", "O Messias", "O Filho de Deus", "O Cordeiro de Deus", "Emanuel"],
+    "birth_approx": "~4 a.C.",
+    "death_approx": "~30 d.C.",
+    "biography": "Jesus nasceu em Belém, cresceu em Nazaré, foi batizado por João Batista e passou três anos em ministério público na Galileia e Judeia. Ensinou sobre o Reino de Deus, realizou milagres, chamou doze discípulos e desafiou o establishment religioso. Foi crucificado em Jerusalém sob Pôncio Pilatos e ressuscitou no terceiro dia. Quarenta dias depois, ascendeu aos céus.",
+    "role": "Salvador, Filho de Deus, Messias",
+    "significance": "Jesus é o centro de toda a história bíblica — o ponto para o qual tudo no Antigo Testamento aponta e do qual tudo no Novo Testamento parte. Sua morte e ressurreição são o coração do Evangelho: que Deus, em pessoa, veio ao mundo para restaurar a humanidade a si mesmo.",
+    "bible_references": ["Mateus 1-28", "Marcos 1-16", "Lucas 1-24", "João 1-21"]
+  }
+]
