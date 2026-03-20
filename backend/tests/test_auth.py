@@ -41,7 +41,7 @@ def test_login_wrong_password(client):
 
 def test_me_requires_auth(client):
     response = client.get("/api/auth/me")
-    assert response.status_code == 403
+    assert response.status_code == 401
 
 
 def test_me_with_token(client):

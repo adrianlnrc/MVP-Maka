@@ -7,7 +7,7 @@ export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   const isAppPath = APP_PATHS.some((p) => pathname.startsWith(p));
-  const hasRefreshCookie = request.cookies.has("maka_refresh");
+  const hasRefreshCookie = request.cookies.has("maka_auth");
 
   if (isAppPath && !hasRefreshCookie) {
     const loginUrl = new URL("/login", request.url);

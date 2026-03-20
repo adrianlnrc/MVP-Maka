@@ -23,6 +23,10 @@ export const useAuthStore = create<AuthState>((set) => ({
   setAccessToken: (token) =>
     set({ accessToken: token }),
 
-  logout: () =>
-    set({ user: null, accessToken: null, isAuthenticated: false }),
+  logout: () => {
+    if (typeof window !== "undefined") {
+      document.cookie = "maka_auth=; path=/; max-age=0";
+    }
+    set({ user: null, accessToken: null, isAuthenticated: false });
+  },
 }));

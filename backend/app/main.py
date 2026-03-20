@@ -14,6 +14,7 @@ from app.routers.content import (
     stories_router,
     timeline_router,
 )
+from app.routers.bible import router as bible_router
 from app.routers.reading_plan import router as reading_plan_router
 from app.routers.users import router as users_router
 
@@ -46,6 +47,7 @@ app.include_router(characters_router)
 app.include_router(timeline_router)
 app.include_router(search_router)
 app.include_router(reading_plan_router)
+app.include_router(bible_router)
 
 
 @app.get("/health")

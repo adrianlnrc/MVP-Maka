@@ -37,7 +37,8 @@ export default function LoginPage() {
         headers: { Authorization: `Bearer ${token}` },
       });
       setAuth(meRes.data, token);
-      router.push("/inicio");
+      document.cookie = `maka_auth=1; path=/; max-age=${30 * 24 * 3600}`;
+      window.location.href = "/inicio";
     } catch (err: unknown) {
       const e = err as { response?: { data?: { detail?: string } } };
       setError(e?.response?.data?.detail || "Erro ao fazer login");

@@ -1,14 +1,14 @@
 import pytest
 from fastapi.testclient import TestClient
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker
 
 from app.database import Base, get_db
 from app.main import app
 
-SQLALCHEMY_TEST_URL = "sqlite:///./test.db"
+SQLALCHEMY_TEST_URL = "postgresql://maka_user:makapassword@db:5432/maka_db"
 
-engine = create_engine(SQLALCHEMY_TEST_URL, connect_args={"check_same_thread": False})
+engine = create_engine(SQLALCHEMY_TEST_URL)
 TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 
